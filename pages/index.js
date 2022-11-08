@@ -12,6 +12,7 @@ export default function Home() {
 
       <main className="">
         <h1> Hello EWODFJN</h1>
+        <h1> Hello bangkit</h1>
       </main> 
 
       <footer className="">
