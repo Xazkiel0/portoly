@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
 
       <main className="">
-      
-      </main>
+        <h1> Hello EWODFJN</h1>
+      </main> 
 
       <footer className="">
 
