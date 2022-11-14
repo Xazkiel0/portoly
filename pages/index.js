@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <h1> Hello EWODFJN</h1>
+        <h1 className='text-zinc-500'> Hello EWODFJN</h1>
         <h1> Hello bangkit</h1>
       </main> 
 
