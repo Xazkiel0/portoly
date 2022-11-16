@@ -1,5 +1,7 @@
 import Logo from '../public/assets/svg/Logo.svg';
 
+
+
 const Navbar = () => {
     return (
         // <nav>
@@ -8,12 +10,12 @@ const Navbar = () => {
                 <div className="flex flex-row items-center space-x-2 p-2">
                     <Logo className="w-8" />
                     <div className="text-logo">
-                        <span className='text-[30px] font-normal mt-1 tracking-wide'>PortoLy</span>
+                        <span className='text-[30px] font-medium mt-1 tracking-wide '>PortoLy</span>
                     </div>
                 </div>
-                <div className="px-10 ">
-                    <span className=' text-[20px] font-medium  tracking-wide'>Home</span>
-                    <div className='bg-[#B1B2FF] w-6 h-[3px] flex mx-auto rounded'></div>
+                <div className="px-10 relative ">
+                    <span className='underlineNav text-[20px] font-medium  tracking-wide '>Home</span>
+                    {/* <div className='bg-[#B1B2FF] w-6 h-[3px] flex mx-auto rounded'></div> */}
                 </div>
         
                 <div className="px-10 ">
