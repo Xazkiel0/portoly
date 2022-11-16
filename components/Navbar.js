@@ -13,7 +13,7 @@ const Navbar = () => {
                 </div>
                 <div className="px-10 ">
                     <span className=' text-[20px] font-medium  tracking-wide'>Home</span>
-                    <div className='bg-slate-600 w-5 h-1 flex self-center'></div>
+                    <div className='bg-[#B1B2FF] w-6 h-[3px] flex mx-auto rounded'></div>
                 </div>
         
                 <div className="px-10 ">
