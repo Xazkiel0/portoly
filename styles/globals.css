@@ -16,7 +16,7 @@ body {
 
 @layer components{
   .underlineNav{
-    @apply after:content-[""] after:bg-[#B1B2FF] after:w-6 after:justify-center after:h-[3px] after:flex after:mx-auto after:rounded
+    @apply after:content-[""] after:bg-[#B1B2FF] after:w-6  after:justify-center after:justify-items-center after:h-[3px] after:flex after:ml-auto after:mr-auto  after:rounded after:absolute after:text-center 
   }
 }
 
