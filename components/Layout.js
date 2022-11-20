@@ -5,8 +5,12 @@ import localFont from '@next/font/local'
 
 // Font files can be colocated inside of `pages`
 const lexendLocal = localFont({ src: '../public/assets/font/lexend/Lexend-Regular.ttf' })
+const lexendLocalLight = localFont({ src: '../public/assets/font/lexend/Lexend-Light.ttf' })
 
 const lexend = Lexend({
+    weight: '100',
+})
+const lexendLight = Lexend({
     weight: '100',
 })
 const Layout = ({ children }) => {
