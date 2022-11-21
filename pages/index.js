@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex h-[360px] w-[360px] items-center mx-auto mt-9 justify-center bg-slate-600 rounded-full drop-shadow-lg">
             {/* <img src="../public/assets/img/profile.jpg" className="w-60 h-60" /> */}
           </div>
-          <span className="flex items-center mx-auto justify-center mt-2  text-[30px] font-semibold">Muhammad Sayidul Ikhsan</span>
+          <span className="flex items-center mx-auto justify-center mt-2 text-center text-[30px] font-semibold">Muhammad Sayidul Ikhsan Ulya</span>
           <span className="flex items-center mx-auto justify-center mt-1  text-[24px] font-extralight">@UlyaSepuhSlipkol</span>
         </div>
         <div className=" w-2/3 h-5 mx-2 p-2 ">
@@ -31,7 +31,7 @@ export default function Home() {
             <div className="h-10 w-full rounded-full bg-gradient-to-r from-[#FFD1E4]  via-[#BEE1F1] to-[#8AFBD1] py-1 px-[5px]">
               <input className="flex text-zinc-800 bg-gray-100 h-full w-full items-center justify-center rounded-full px-4 focus:outline-none  focus:ring-[#9fccf1] focus:ring-2" />
             </div>
-            <span className="flex text-[20px] font-normal  justify-center pt-16 text-black mb-4"> Dont have account ? <span className="text-sky-500"> Sign Up</span></span>
+            <span className="flex text-[20px] font-normal  justify-center pt-16 text-black mb-4"> Dont have account ? <a href="" className="text-sky-500"> Sign Up</a></span>
             <div className="sign-up-btn justify-center mt-7 mb-20 flex ">
               <button className='bg-[#7DC3E3] drop-shadow-md rounded-full w-[200px] h-[60px] p-2 px-4 font-semibold text-[24px] text-white justify-center' type="submit">Login</button>
             </div>
