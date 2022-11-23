@@ -1,16 +1,18 @@
+import Image from "next/image";
+import Profile from '../public/assets/svg/bg-profile.svg';
+
 
 export default function Home() {
   return (
-    <div>
-      <div className="h-10 w-[500px] rounded-full bg-gradient-to-r from-[#FFD1E4]  via-[#BEE1F1] to-[#8AFBD1] py-1 px-[5px]">
+    <div className="pt-20">
+      <div className=" h-10 w-[500px] rounded-full bg-gradient-to-r from-[#FFD1E4]  via-[#BEE1F1] to-[#8AFBD1] py-1 px-[5px]">
           <input className="flex text-zinc-800 h-full w-full items-center justify-center rounded-full px-4 focus:outline-none  focus:ring-[#9fccf1] focus:ring-2" placeholder="Search..."/>
       </div>
       <div className="flex ">
-        <div className="w-1/3 h-[500px] mx-2 p-1  items-center justify-center  ">
-          <div className="flex h-[360px] w-[360px] items-center mx-auto mt-9 justify-center bg-slate-600 rounded-full drop-shadow-lg">
-            {/* <img src="../public/assets/img/profile.jpg" className="w-60 h-60" /> */}
-          </div>
-          <span className="flex items-center mx-auto justify-center mt-2 text-center text-[30px] font-semibold">Muhammad Sayidul Ikhsan Ulya</span>
+        <div  className="w-1/3  mx-2 p-1  items-center justify-center  ">
+          <Profile className="w-full absolute" />
+          <Image src="/../public/assets/img/profile.jpg" width={1200} height={1200} className=" h-[360px] w-[360px] items-center mx-auto mt-9 justify-center bg-slate-600 rounded-full drop-shadow-lg " />
+          <span className="flex items-center mx-auto justify-center mt-6 text-center text-[30px] font-semibold">Muhammad Sayidul Ikhsan Ulya</span>
           <span className="flex items-center mx-auto justify-center mt-1  text-[24px] font-extralight">@UlyaSepuhSlipkol</span>
         </div>
         <div className=" w-2/3 h-5 mx-2 p-2 ">
@@ -20,7 +22,7 @@ export default function Home() {
           <span className="mt-8 flex text-[40px] font-semibold">Social Media</span>
         </div>
       </div>
-      <div className="h-auto mt-3 w-[650px] rounded-lg bg-gradient-to-r from-[hsl(335,100%,91%)]  via-[#BEE1F1] to-[#8AFBD1] p-[12px]">
+      <div className="h-auto mb-32 mt-3 w-[650px] rounded-lg bg-gradient-to-r from-[hsl(335,100%,91%)]  via-[#BEE1F1] to-[#8AFBD1] p-[12px]">
           <div className=" bg-white mb-4 text-zinc-800 h-full w-full items-center justify-center rounded-lg py-4  px-20">
             <h1 className="flex text-[48px] text-2xl font-black justify-center items-center text-black pt-14 pb-14">Login</h1>
             <span className="flex text-[20px] font-normal  justify-start  text-black mb-4"> Username</span>
@@ -35,7 +37,8 @@ export default function Home() {
             <div className="sign-up-btn justify-center mt-7 mb-20 flex ">
               <button className='bg-[#7DC3E3] drop-shadow-md rounded-full w-[200px] h-[60px] p-2 px-4 font-semibold text-[24px] text-white justify-center' type="submit">Login</button>
             </div>
-          </div>      
+          </div>   
+          <span className="text-white justify-center flex p-1" >Copyright PortoLy 2021-2022</span>  
       </div>
       {/* <div class="mx-auto flex min-h-screen max-w-screen-sm items-center justify-center">
         <div class="h-36 w-full rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1">
